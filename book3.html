@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Showcase</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <style>
+        summary {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #007bff;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            text-align: center;
+            font-size: 16px;
+            transition: background-color 0.3s ease;
+            list-style: none;
+           
+        }
+
+        summary:hover {
+            background-color: #0056b3;
+        }
+
+        summary::-webkit-details-marker {
+            display: none;
+        }
+
+        details {
+            margin-bottom: 10px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            padding: 10px;
+            background-color: #f9f9f9;
+        }
+
+        section {
+            background: linear-gradient(45deg, yellow, orange);
+            padding: 20px;
+        }
+    </style>
+</head>
+
+<body class="m-3 m-md-5 bg-danger-subtle">
+    <header class="bg-dark text-white py-3">
+        <div class="container">
+            <h2 class="text-center">Book Showcase: Book 3 Details</h2>
+        </div>
+    </header>
+
+    <nav class="bg-dark py-2">
+        <div class="container d-flex justify-content-end">
+            <!-- Home Button -->
+            <form action="index.html" method="get">
+                <button type="submit" class="btn btn-primary fs-5">HOME</button>
+            </form>
+        </div>
+    </nav>
+
+    <section class="container my-5">
+        <div class="bg-white p-3 p-md-5">
+            <div class="text-center">
+                <h3>Book 3: Exploring Technology</h3>
+            </div>
+            <div class="text-center my-4">
+                <img src="images/817LnN-frSL._UF1000,1000_QL80_.jpg" class="img-fluid" alt="Book Cover"
+                    style="max-height: 500px;">
+            </div>
+            <div class="mx-3 mx-md-5">
+                <details class="mb-3">
+                    <summary>Genre</summary>
+                    <br>
+                    Manufacturing engineering and technology is a broad, interdisciplinary field that encompasses the
+                    science, engineering, and technology of manufacturing processes, focusing on designing, developing,
+                    and optimizing systems for efficient and cost-effective production.
+                </details>
+                <details class="mb-3">
+                    <summary>Index pages</summary>
+                    <br>
+
+                    Learn more
+                    To find "Manufacturing Engineering and Technology" index pages, you can explore resources like
+                    textbooks, academic journals, and online platforms, which often provide detailed tables of contents
+                    or indexes for specific editions or publications.
+                </details>
+                <details class="mb-3">
+                    <summary>Authors</summary>
+                    <br>
+                    Book by Serope Kalpakjian and Steven R. Schmid
+                    Overview
+                    Get book
+                    Summary
+                    More By Author
+
+                </details>
+                <details class="mb-3">
+                    <summary>Overview</summary>
+                    <br>
+                    Manufacturing engineering and technology involve designing, implementing, and managing production processes to create goods, encompassing everything from raw materials to finished products, and is a vital field for economic growth and technological advancement. 
+                </details>
+                <details class="mb-3">
+                    <summary>Competitive Exam Relevance</summary><br>
+                    Manufacturing technology lowers operational costs, reduces labor expenses and minimizes downtime. Companies that adopt automation at scale may cut costs up to 30 percent within the first five years of implementation, according to McKinsey.
+                    </details>
+                <details class="mb-3">
+                    <summary>Purchase Links</summary>
+                    <div><a href="https://www.amazon.in/Manufacturing-Engineering-Technology-Serope-Kalpakjian/dp/9332587906">Amazon</a></div>
+                    <div><a href="https://www.flipkart.com/manufacturing-engineering-technology-4th/p/itme8utsqzaawgxd">Flipkart</a></div>
+                </details>
+            </div>
+
+            <div class="mt-5 mx-3 mx-md-5">
+                <h5>Feedback Form</h5>
+                <form>
+                    <div class="mb-3">
+                        <label for="name" class="form-label">Name</label>
+                        <input type="text" class="form-control" id="name">
+                    </div>
+                    <div class="mb-3">
+                        <label for="feedback" class="form-label">Feedback</label>
+                        <textarea class="form-control" id="feedback" rows="3"></textarea>
+                    </div>
+                    <div class="d-grid">
+                        <button class="btn btn-primary" type="submit">Submit</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    
+</body>
+
+</html>
